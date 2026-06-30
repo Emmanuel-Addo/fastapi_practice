@@ -1,5 +1,5 @@
 from pydantic import BaseModel
 
-class PosrCreate(BaseModel):
+class PostCreate(BaseModel):
     title: str
     content: str
